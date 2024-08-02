@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gerenciador de Tarefas</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1 id="h1-start">Bem-vindo ao Gerenciador de Tarefas</h1>
+        <p id="p-start">Organize suas tarefas de forma simples e eficiente com o nosso Gerenciador de Tarefas. Adicione, edite e remova suas tarefas facilmente.</p>
+        <button id="startButton">Começar Agora</button>
+    </div>
+
+    <div class="container hidden" id="taskManagerContainer">
+        <div class="image-text-container">
+            <img src="pcroxo.png" alt="Lista de Documentos" class="responsive-img">
+        </div>
+        <h1>Gerenciador de Tarefas</h1>
+        <div class="input-container">
+            <input type="text" id="taskTitleInput" placeholder="Título da tarefa">
+            <textarea id="taskDescriptionInput" placeholder="Descrição da tarefa"></textarea>
+            <button id="addTaskButton">Adicionar</button>
+        </div>
+        <ul id="taskList"></ul>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
